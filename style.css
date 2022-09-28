@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 1300px;
+}
+
+.navbar {
+  background: radial-gradient(black, grey);
+  display: flex;
+  top: 0;
+  position: sticky;
+  min-width: 1300px;
+}
+
+.logo {
+  padding: 10px 25px;
+  margin-right: 350px;
+  color: white;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav {
+  padding: 25px;
+  color: white;
+  margin-right: 120px;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.dropdown .dropdownbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.nav a:hover,
+.dropdown:hover .dropdownbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: radial-gradient(green, purple);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: 0.5s;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.dropdown-content a {
+  float: none;
+  color: White;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  color: cyan;
+}
+
+.st {
+  display: flex;
+  padding: 25px;
+  background: radial-gradient(lightblue, black);
+}
+
+.st .img img {
+  width: 320px;
+}
+
+.st .txt {
+  padding: 400px 40px;
+  font-size: 24px;
+}
+
+.nd {
+  background: radial-gradient(rgb(92, 92, 92), rgb(1, 1, 186));
+  min-height: 550px;
+}
+
+.nd .ttl {
+  font-size: 26px;
+  text-align: center;
+  color: Red;
+  padding: 50px;
+  text-decoration: underline;
+}
+
+.nd .prod a {
+  padding: 25px;
+}
+
+.nd .prod {
+  text-align: center;
+}
+
+.nd .prod img {
+  width: 250px;
+  transition: 0.5s;
+}
+
+.nd .prod img:hover {
+  width: 270px;
+}
+
+.rd {
+  background: radial-gradient(darkgreen, black);
+  min-height: 550px;
+}
+
+.rd p {
+  color: white;
+  text-align: center;
+  padding: 120px;
+  font-size: 25px;
+}
+
+.th {
+  display: flex;
+  min-height: 550px;
+  background: radial-gradient(black, purple);
+}
+
+.th .links ul {
+  list-style: none;
+  text-align: right;
+  min-width: 700px;
+  padding: 30px;
+}
+
+.th .links img {
+  width: 125px;
+  transition: 0.5s;
+}
+
+.th .title {
+  text-align: center;
+  padding-top: 250px;
+  padding-left: 60px;
+  color: white;
+}
+
+.th .links img:hover {
+  width: 145px;
+}
+
+.footer {
+  min-height: 200px;
+  background-color: rgb(97, 97, 97);
+  text-align: center;
+  padding: 100px;
+}
