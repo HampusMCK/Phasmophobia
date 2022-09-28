@@ -212,4 +212,7 @@ nav h1 {
   .dropdown .dropdownbtn{
     font-size: 15px;
   }
+  .th .links ul {
+    min-width: 500px;
+  }
 }
