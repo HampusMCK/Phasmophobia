@@ -191,7 +191,7 @@ nav h1 {
   padding: 100px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .header{
     min-width: 800px;
   }
