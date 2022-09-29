@@ -258,7 +258,11 @@ nav h1 {
     min-width: 40px;
   }
   .rd p{
-    font-size: 20px
+    font-size: 20px;
+    padding: 20px;
+  }
+  .rd{
+min-height: 40px;
   }
   .th .links ul {
     min-width: 100px;
