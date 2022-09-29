@@ -36,17 +36,9 @@ nav h1 {
   text-align: center;
 }
 
-          .dropdown:hover .mbc{
-  display: contents;
-}
-
 .mbc{
   display: none;
 }
-
-.mbc:hover .dropdown-content{
-  display: none;
-                }
 
 .dropdown {
   float: left;
@@ -231,7 +223,10 @@ nav h1 {
   .logo{
     margin: 0;
   }
-                  .mbc{
+  .dropdown:hover .mbc{
+    display: contents;
+  }
+  .mbc{
     display: none;
   }
   .close:hover .mbc{
