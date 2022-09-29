@@ -193,33 +193,51 @@ nav h1 {
 
 @media (max-width: 1000px) {
   .header{
-    min-width: 800px;
+    max-width: 470px;
   }
   .header img{
     max-width: 100px;
   }
   .navbar{
-    min-width: 800px;
+    min-width: 400px;
     margin: 0;
   }
+  nav{
+    padding-right: 0;
+  }
   .navbar h1{
-    font-size: 15px;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
     margin: 0;
   }
   .logo{
     margin: 0;
   }
   .dropdown .dropdownbtn{
-    font-size: 15px;
+    font-size: 10px;
+  padding: 0;
+  }
+  .dropdown-content{
+    font-size: 10px;
+    min-width: 5px;
+  }
+  .st{
+    max-width: 470px;
   }
   .st .txt{
     padding: 40px 100px;
+    font-size: 15px;
   }
 
   .nd{
     min-height: 300px;
+    min-width: 470px;
+  }
+  .rd p{
+    font-size: 20px
   }
   .th .links ul {
-    min-width: 500px;
+    min-width: 200px;
   }
 }
