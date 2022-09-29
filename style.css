@@ -36,6 +36,18 @@ nav h1 {
   text-align: center;
 }
 
+          .dropdown:hover .mbc{
+  display: contents;
+}
+
+.mbc{
+  display: none;
+}
+
+.mbc:hover .dropdown-content{
+  display: none;
+                }
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -219,6 +231,15 @@ nav h1 {
   .logo{
     margin: 0;
   }
+                  .mbc{
+    display: none;
+  }
+  .close:hover .mbc{
+    display: none;
+  }
+  .close:hover .dropdown-content{
+    display: none;
+                    }
   .dropdown .dropdownbtn{
     font-size: 10px;
   margin-right: 15px;
