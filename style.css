@@ -120,6 +120,8 @@ nav h1 {
 .nd {
   background: radial-gradient(rgb(92, 92, 92), rgb(1, 1, 186));
   min-height: 550px;
+  display: grid;
+  grid-template-rows: 30% 70%;
 }
 
 .nd .ttl {
@@ -161,6 +163,7 @@ nav h1 {
 
 .th {
   display: flex;
+  justify-content: space-evenly;
   min-height: 550px;
   background: radial-gradient(black, purple);
 }
@@ -170,11 +173,18 @@ nav h1 {
   text-align: right;
   min-width: 700px;
   padding: 30px;
+  justify-content: space-evenly;
+}
+
+.th .links ul li{
+  justify-content: space-evenly;
+  padding: 15px 0;
 }
 
 .th .links img {
   width: 125px;
   transition: 0.5s;
+  justify-content: space-evenly;
 }
 
 .th .title {
@@ -182,6 +192,7 @@ nav h1 {
   padding-top: 250px;
   padding-left: 60px;
   color: white;
+  justify-content: space-evenly;
 }
 
 .th .links img:hover {
